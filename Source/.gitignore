@@ -1,0 +1,12 @@
+# Ignore everything inside the folder
+Outputs/*
+
+# Exception: Keep this specific file so the folder remains in the repo
+!Outputs/.gitkeep
+
+# Ignores the entire .idea folder created by PyCharm
+.idea/
+
+# Ignores the __pycache__ folder and compiled python files
+__pycache__/
+*.pyc
